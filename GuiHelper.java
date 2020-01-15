@@ -9,13 +9,13 @@ public class GuiHelper {
 
     private static Minecraft mc = Minecraft.getMinecraft();
 
-    public static void drawPicture(int x, int y, int width, int height, String location) {
+    public void drawPicture(int x, int y, int width, int height, String location) {
         ResourceLocation loc = new ResourceLocation(location);
         mc.getTextureManager().bindTexture(loc);
         Gui.drawModalRectWithCustomSizedTexture(x, y, 0, 0, width, height, width, height);
     }
 
-    public static void drawBackgroundPicture(int width, int height, String location) {
+    public void drawBackgroundPicture(int width, int height, String location) {
         ScaledResolution scaledResolution = new ScaledResolution(mc);
         ResourceLocation loc = new ResourceLocation(location);
         mc.getTextureManager().bindTexture(loc);
