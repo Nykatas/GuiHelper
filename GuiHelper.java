@@ -8,6 +8,7 @@ import net.minecraft.util.ResourceLocation;
 public class GuiHelper {
 
     private static Minecraft mc = Minecraft.getMinecraft();
+    public GuiHelper() {}
     
     /**
      * Renders a picture anywhere on the screen.
