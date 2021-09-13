@@ -41,4 +41,5 @@ public class GuiHelper {
         Gui.drawModalRectWithCustomSizedTexture(0, 0, 0, 0, scaledResolution.getScaledWidth(), scaledResolution.getScaledHeight(), scaledResolution.getScaledWidth(), scaledResolution.getScaledHeight());
         Gui.drawRect(0, 0, width, height, 0x40000000);
     }
+    
 }
