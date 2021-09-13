@@ -18,8 +18,6 @@ public class GuiHelper {
      * @param width | Specify the width of the image.
      * @param height | Specify the height of the image.
      * @param location | Specify the location of the image.
-     * 
-     * @return nothing | Can't return anything because its a void method.
      *
      */
     public void drawPicture(int x, int y, int width, int height, ResourceLocation location) {
@@ -34,8 +32,6 @@ public class GuiHelper {
      * @param width | Used tp specify the height of the image. ( Normally #getScaledWidth() )
      * @param height | Used tp specify the height of the image. ( Normally #getScaledHeight() )
      * @param location | Used to specify the location of the image.
-     *                 
-     * @return nothing | Can't return anything because its a void method.
      *                 
      */
     public void drawBackgroundPicture(int width, int height, ResourceLocation location) {
